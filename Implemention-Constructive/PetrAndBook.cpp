@@ -19,7 +19,6 @@ int main()
         p -= arr[i % 7];
         i++;
     }
-
     cout << (i - 1) % 7 + 1 << endl;
     return 0;
 }
